@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Onboardinig"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_vegetables"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WE WILL FIND THE BEST"
+            android:textColor="@color/green"
+            android:textSize="25dp"
+            android:fontFamily="@font/allfront"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:textColor="@color/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find the nearest places with the best"
+            android:fontFamily="@font/allfont_medium"/>
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:textColor="@color/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="organic foods and make your life healthier!"
+            android:fontFamily="@font/allfont_medium"/>
+        <Button
+            android:id="@+id/btnLetGo"
+            android:background="@drawable/bg_button"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="LET'S GO"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:fontFamily="@font/allfront"/>
+    </LinearLayout>
+</RelativeLayout>

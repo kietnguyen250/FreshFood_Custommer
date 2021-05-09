@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">King Fresh</string>
+
+    <string name="btn_changepass">Đổi mật khẩu</string>
+    <string name="btn_signout">Đăng xuất</string>
+    <string name="btn_signup">Do not have an account? Sign up</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_category">Category</string>
+    <string name="menu_food">Food</string>
+    <string name="menu_profile">Profile</string>
+    <string name="finish">Tạo tài khoản thành công, hãy đăng nhập vào King Fresh !</string>
+    <string-array name="male_array">
+        <item>Nam</item>
+        <item>Nữ</item>
+    </string-array>
+</resources>

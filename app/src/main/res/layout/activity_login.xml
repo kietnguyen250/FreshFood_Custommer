@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/background">
+    <ProgressBar
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"/>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_leaf"/>
+        <TextView
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allfront"
+            android:text="Welcome to KING FRESH"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/allfont_medium"
+            android:text="Helping you find the best food"
+            android:textColor="@color/green"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/allfront"
+            android:text="E M A I L"
+            android:textColor="@color/green"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+       <EditText
+            android:id="@+id/edt_mail_login"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allfront"
+            android:text="P A S S W O R D"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edt_password_login"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+        <CheckBox
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/chk_save"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Save password?" />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/allfront"
+            android:text="SIGN IN"
+            android:id="@+id/btn_login"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_signup"
+            android:layout_gravity="center"
+            android:textColor="@color/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do not have an account? REGISTER"
+            android:fontFamily="@font/allfont_medium"/>
+    </LinearLayout>
+
+</RelativeLayout>
